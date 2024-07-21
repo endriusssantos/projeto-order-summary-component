@@ -1,0 +1,114 @@
+body {
+    background: url(../images/pattern-background-desktop.svg) no-repeat top / contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    height: 100%;
+    max-height: 550px;
+    background-color: hsl(225, 100%, 100%);
+    border-radius: 20px;
+    box-shadow: 0px 12px 15px 0px rgba(0, 0, 0, 0.1);
+}
+
+.container .container-image {
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.container .details-container {
+    text-align: center;
+}
+
+.container .details-container .title {
+    padding: 20px;
+    color: hsl(223, 47%, 23%);
+}
+
+.container .details-container .description {
+    width: 300px;
+    margin: 0 auto;
+    color: hsl(224, 23%, 55%);
+}
+
+.container .price-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 70px;
+    margin: 15px auto;
+    border-radius: 10px;
+    background-color: hsl(225, 100%, 98%);
+}
+
+.container .price-container .plan-group {
+    padding: 0 70px 0 20px;
+}
+
+.container .price-container .plan {
+    color: hsl(223, 47%, 23%);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.container .price-container .price {
+    font-size: 14px;
+    color: hsl(224, 23%, 55%);
+}
+
+.container .price-container .btn-change {
+    color: hsl(245, 75%, 52%);
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+
+.container .price-container .btn-change:hover {
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+.container .payment {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.container .payment .btn-payment {
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 100%);
+    box-shadow: 0px 15px 15px 0px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.container .payment .btn-payment:hover {
+    opacity: 0.7;
+}
+
+.container .payment .btn-cancel {
+    color: hsl(224, 23%, 55%);
+    font-size: 12px;
+    font-weight: 700;
+    transition: 0.3s;
+}
+
+.container .payment .btn-cancel:hover {
+    color: hsl(223, 47%, 23%);
+}

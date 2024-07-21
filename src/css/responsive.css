@@ -1,0 +1,18 @@
+@media (max-width: 425px) {
+    body {
+        background: url(../images/pattern-background-desktop.svg);
+        background-color: hsl(225, 100%, 94%);
+    }
+
+    .container {
+        max-width: 320px;
+    }
+
+    .container .details-container .description {
+        width: 250px;
+    }
+
+    .container .price-container {
+        width: 90%;
+    }
+}
